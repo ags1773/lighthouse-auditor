@@ -13,7 +13,7 @@ async function test(webpageUrl) {
   const chrome = await chromeLauncher.launch({ chromeFlags: ["--headless"] });
   const options = {
     logLevel: "info",
-    output: "html",
+    output: "json",
     onlyCategories: ["performance"],
     port: chrome.port,
   };
@@ -23,7 +23,7 @@ async function test(webpageUrl) {
   const reportHtml = runnerResult.report;
   await fs.writeFile(
     path.resolve(
-      path.join(__dirname, "..", "reports", `${Date.now()}_lhreport.html`)
+      path.join(__dirname, "..", "reports", `${Date.now()}_lhreport.json`)
     ),
     reportHtml
   );
