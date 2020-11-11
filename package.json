@@ -1,0 +1,16 @@
+{
+  "name": "lighthouse-auditor",
+  "version": "1.0.0",
+  "description": "application to audit the lighthouse scores of pages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "amogh",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-launcher": "^0.13.4",
+    "lighthouse": "^6.4.1"
+  }
+}
