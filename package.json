@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "chrome-launcher": "^0.13.4",
-    "lighthouse": "^6.4.1"
+    "lighthouse": "^6.4.1",
+    "node-fetch": "^2.6.1"
   }
 }
