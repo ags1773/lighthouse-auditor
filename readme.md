@@ -1,3 +1,8 @@
+### NOTE:
+
+- create a `.env` file in the main dir
+- assign your [pagespeed insights api key](https://developers.google.com/speed/docs/insights/v5/get-started#key) to env variable `PAGESPEED_API_KEY`
+
 #### Useful Documentation
 
 - [Dealing with variance](https://github.com/GoogleChrome/lighthouse/blob/HEAD/docs/variability.md)
